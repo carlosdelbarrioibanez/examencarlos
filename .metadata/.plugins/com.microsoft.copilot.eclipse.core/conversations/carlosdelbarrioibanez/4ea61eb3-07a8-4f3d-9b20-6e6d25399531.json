@@ -1,0 +1,208 @@
+{
+  "conversationId": "4ea61eb3-07a8-4f3d-9b20-6e6d25399531",
+  "title": "9.Programa que lee una cadena de texto y posterior...",
+  "requesterUsername": "carlosdelbarrioibanez",
+  "responderUsername": "GitHub Copilot",
+  "turns": [
+    {
+      "message": {
+        "text": "9.Programa que lee una cadena de texto y posteriormente lee un carácter, y me dice si la cadena comienza por ese carácter.\r\n"
+      },
+      "currentDocument": {
+        "uri": "/Examenirene/src/ejercicio1/Ejercicio1.java"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "GPT-4.1",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "60d9afe7-d82f-420f-937e-6b39c7664c6c",
+      "role": "user",
+      "timestamp": "2026-10-08T20:16:19.890459600Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [
+          {
+            "error": {
+              "message": "Sorry, you have been rate-limited. Please wait a moment before trying again or consider switching to Auto. [Learn More](https://aka.ms/github-copilot-rate-limit-error) Request ID: 8f4dc3cc-2c52-40ad-a74b-e4415aadb26f",
+              "code": 429
+            }
+          }
+        ],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "modelName": "GPT-4.1",
+        "billingMultiplier": 0.0
+      },
+      "turnId": "60d9afe7-d82f-420f-937e-6b39c7664c6c",
+      "role": "copilot",
+      "timestamp": "2026-10-08T20:16:20.281278300Z"
+    },
+    {
+      "message": {
+        "text": "9.Programa que lee una cadena de texto y posteriormente lee un carácter, y me dice si la cadena comienza por ese carácter.\r\n"
+      },
+      "currentDocument": {
+        "uri": "/Examenirene/src/ejercicio1/Ejercicio1.java"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "gpt-oss:20b",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "efd35b85-dfd5-4a89-871e-dbf82009deb8",
+      "role": "user",
+      "timestamp": "2026-10-08T20:18:27.821645900Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "billingMultiplier": 0.0
+      },
+      "turnId": "efd35b85-dfd5-4a89-871e-dbf82009deb8",
+      "role": "copilot",
+      "timestamp": "2026-10-08T20:18:27.882643300Z"
+    },
+    {
+      "message": {
+        "text": "9.Programa que lee una cadena de texto y posteriormente lee un carácter, y me dice si la cadena comienza por ese carácter.\r\n"
+      },
+      "currentDocument": {
+        "uri": "/Examenirene/src/ejercicio1/Ejercicio1.java"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "Meta-Llama-3.1",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "5ea699c0-46c5-41a7-b9da-396a50c9fd16",
+      "role": "user",
+      "timestamp": "2026-10-08T20:18:58.960548800Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "billingMultiplier": 0.0
+      },
+      "turnId": "5ea699c0-46c5-41a7-b9da-396a50c9fd16",
+      "role": "copilot",
+      "timestamp": "2026-10-08T20:18:59.018448300Z"
+    },
+    {
+      "message": {
+        "text": "9.Programa que lee una cadena de texto y posteriormente lee un carácter, y me dice si la cadena comienza por ese carácter.\r\n"
+      },
+      "currentDocument": {
+        "uri": "/Examenirene/src/ejercicio1/Ejercicio1.java"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "Qwen3",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "ced0b859-544e-4e87-b6ee-e2d49a9ec9a3",
+      "role": "user",
+      "timestamp": "2026-10-08T20:19:10.791056500Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "billingMultiplier": 0.0
+      },
+      "turnId": "ced0b859-544e-4e87-b6ee-e2d49a9ec9a3",
+      "role": "copilot",
+      "timestamp": "2026-10-08T20:19:10.983815900Z"
+    },
+    {
+      "message": {
+        "text": "8.Programa que lea un número entero de 5 cifras y muestre sus cifras desde el principio como en el ejemplo. Utiliza la división de enteros y posteriormente realiza lo mismo pero tratándolo como un String, y aplicando métodos de String.\r\n"
+      },
+      "currentDocument": {
+        "uri": "/Examenirene/src/ejercicio1/Ejercicio1.java"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "llamacpp:9ba9cc2b4e02463b933096090530aef679d534dd91ecc9afadfb2dbfdc59f3c5",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "3e3cdcc3-3b7f-4e87-8dbf-3a09a104ad74",
+      "role": "user",
+      "timestamp": "2026-10-08T20:26:39.512121900Z"
+    },
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "billingMultiplier": 0.0
+      },
+      "turnId": "3e3cdcc3-3b7f-4e87-8dbf-3a09a104ad74",
+      "role": "copilot",
+      "timestamp": "2026-10-08T20:26:39.600121600Z"
+    }
+  ],
+  "creationDate": "2026-10-08T20:16:19.801275800Z",
+  "lastMessageDate": "2026-10-08T20:26:39.600121600Z"
+}

@@ -1,0 +1,32 @@
+package ejercicio1;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+	
+		// Leer una cadena de texto
+		System.out.print("Introduce una cadena de texto: ");
+		String cadena = scanner.nextLine();
+		
+		// Leer un carácter
+		System.out.print("Introduce un carácter: ");
+		String entrada = scanner.nextLine();
+		char caracter = entrada.isEmpty() ? ' ' : entrada.charAt(0);
+		
+		// Verificar si la cadena comienza por ese carácter
+		if (cadena.isEmpty()) {
+			System.out.println("La cadena está vacía.");
+		} else if (cadena.charAt(0) == caracter) {
+			System.out.println("Sí, la cadena comienza por el carácter '" + caracter + "'");
+		} else {
+			System.out.println("No, la cadena no comienza por el carácter '" + caracter + "'");
+			System.out.println("La cadena comienza por: '" + cadena.charAt(0) + "'");
+		}
+		
+		scanner.close();
+	}
+
+}

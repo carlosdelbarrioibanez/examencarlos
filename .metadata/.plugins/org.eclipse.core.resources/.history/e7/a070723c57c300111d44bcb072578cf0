@@ -1,0 +1,29 @@
+package ejercicio1;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		// Pedir el día
+		System.out.print("Introduce el día: ");
+		int dia = scanner.nextInt();
+		scanner.nextLine(); // Vaciar el buffer de lectura (importante después de nextInt())
+		
+		// Pedir el mes
+		System.out.print("Introduce el mes (Enero, Febrero, etc.): ");
+		String mes = scanner.nextLine();
+		
+		// Pedir el año
+		System.out.print("Introduce el año: ");
+		int año = scanner.nextInt();
+		
+		// Mostrar la fecha completa en el formato solicitado
+		System.out.println("\nFecha de nacimiento: " + dia + "/" + mes + "/" + año);
+		
+		scanner.close();
+	}
+
+}

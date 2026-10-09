@@ -1,0 +1,104 @@
+package examen5;
+
+import java.util.Scanner;
+
+public class Examen5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//creamos el escaner para leer datos 
+		
+		Scanner sc new Scanner(System.in);
+		
+	int numero = 1;
+	int numero2 =2;
+	int numero3 =3;
+	int numero4 =5;
+	int numero5 =6;
+	int numero6 =7;
+	int numero8 =8;
+	
+	System.out.println("la cadena de numeros:"+(numero+numero2+numero3+numero4+numero5+numero6+numero8));
+	//cerramos el escaner
+	
+	
+		sc.close();
+		
+		
+		
+		//escribe uprograma que pida al usuario su nombre completo y muestre el número total de caracteres y la primera letra del nombre.
+	
+		String nombre;
+		System.out.println("Introduce tu tu nombre completo:");
+		nombre = sc.nextLine();
+		System.out.println("El número total de caracteres es: " + nombre.length());
+		System.out.println("La primera letra del nombre es: " + nombre.charAt(0));
+		
+		
+		//a continuacion esribir un programa que muestre del 1,10
+		
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(i);
+			//cerramos el escanner
+			sc.close();
+			
+			//escribimos una cadena de numeros del 1 al 10 y muestre la suma de todos los numeros.
+			int suma = 0;
+			for (int j = 1; j <= 10; j++) {
+				suma += j;
+				
+			//mostramos la suma de todos los numeros
+				System.out.println("la suma de todos los numeros del 1 al 10 es :"+ suma);
+				
+				//cerramos el escaner 
+				sc.close();
+				
+				//a continuacion escribimos un programa que pida al usuario una cantidad de segundos y muestre cuantas horas, minutos y segundos son. Si son 24 horas o más, mostrar el mensaje "Eso es más de un día".
+				int segundos;
+				System.out.println("\"introduce una cantida de segundos)");
+				segundos =sc.nextInt();
+				System.out.println("Horas: " + (segundos / 3600));
+				System.out.println();
+		//mostramos los minutos
+				System.out.println("Minutos: " + ((segundos % 3600) / 60));
+				
+				
+				//mostramos los segundos
+		
+				System.out.println("Segundos: " + (segundos % 60));
+				//si son 24 horas o mas mostramos el mensaje
+				if (segundos >= 86400) {
+					System.out.println("Eso es más de un día");
+					
+			}
+				
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+	
+	
+
+	
+	
+	
+	
+	
+			
+			
+			
+			
+			
+			
+	
+	}
+
+}

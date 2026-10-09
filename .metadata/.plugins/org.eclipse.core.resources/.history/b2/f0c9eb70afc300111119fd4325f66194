@@ -1,0 +1,33 @@
+package examen1;
+
+import java.util.Scanner;
+
+public class Examen1 {
+
+	public static void main(String[] args) {
+		// Creamos el objeto Scanner para leer datos del usuario
+		Scanner sc = new Scanner(System.in);
+
+		// Pedimos los segundos al usuario
+		System.out.print("Introduce una cantidad de segundos: ");
+		int segundos = sc.nextInt();
+
+		// Calculamos las horas, minutos y segundos
+		int horas = segundos / 3600;
+		int minutos = (segundos % 3600) / 60;
+		int segundosRestantes = segundos % 60;
+
+		// Mostramos el resultado
+		System.out.println("Horas: " + horas);
+		System.out.println("Minutos: " + minutos);
+		System.out.println("Segundos: " + segundosRestantes);
+
+		// Si son 24 horas o más, mostramos el mensaje
+		if (horas >= 24) {
+			System.out.println("Eso es más de un día");
+		}
+
+		// Cerramos el Scanner
+		sc.close();
+	}
+}

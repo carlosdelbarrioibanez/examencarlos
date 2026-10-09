@@ -1,0 +1,30 @@
+package examen5;
+
+import java.util.Scanner;
+
+public class Examen5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc new Scanner(System.in);
+		
+	int numero = 5;
+	int numero2 =6;
+	System.out.println("el resultado de la suma eS:"+(numero+numero2));
+	
+
+	
+	
+	
+	
+	
+			
+			
+			
+			
+			
+			
+	
+	}
+
+}

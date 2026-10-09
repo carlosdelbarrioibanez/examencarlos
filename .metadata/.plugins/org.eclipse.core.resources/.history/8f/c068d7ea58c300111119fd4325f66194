@@ -1,0 +1,37 @@
+package ejercicio1;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Introduce un número entero de 5 cifras: ");
+		int numero = sc.nextInt();
+
+		// Usando división de enteros
+		System.out.println("Usando división de enteros:");
+		int cifra1 = numero / 10000;
+		int cifra2 = (numero / 1000) % 10;
+		int cifra3 = (numero / 100) % 10;
+		int cifra4 = (numero / 10) % 10;
+		int cifra5 = numero % 10;
+		System.out.println(cifra1);
+		System.out.println(cifra1 + " " + cifra2);
+		System.out.println(cifra1 + " " + cifra2 + " " + cifra3);
+		System.out.println(cifra1 + " " + cifra2 + " " + cifra3 + " " + cifra4);
+		System.out.println(cifra1 + " " + cifra2 + " " + cifra3 + " " + cifra4 + " " + cifra5);
+
+		// Usando String
+		System.out.println("\nUsando String:");
+		String numStr = String.valueOf(numero);
+		for (int i = 1; i <= numStr.length(); i++) {
+			for (int j = 0; j < i; j++) {
+				System.out.print(numStr.charAt(j));
+				if (j < i - 1) System.out.print(" ");
+			}
+			System.out.println();
+		}
+		sc.close();
+	}
+}
